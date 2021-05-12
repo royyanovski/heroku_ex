@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from flask import Flask, request, json
 import json as js
+import os
 
 model = pickle.load(open('churn_model.pkl',  'rb'))
 
